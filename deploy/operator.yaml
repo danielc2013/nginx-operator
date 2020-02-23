@@ -16,7 +16,7 @@ spec:
       containers:
         - name: nginx-operator
           # Replace this with the built image name
-          image: nginx-operator:v0.0.1
+          image: docker.pkg.github.com/danielc2013/nginx-operator/nginx-operator:v0.0.1
           command:
           - nginx-operator
           imagePullPolicy: Always
